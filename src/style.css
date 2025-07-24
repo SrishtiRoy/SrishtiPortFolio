@@ -97,7 +97,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #b10770 !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -144,14 +144,14 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    background-color: #e0e2ef !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
   }
 }
 .navbar-brand {
-  color: rgb(250, 250, 250) !important;
+  color: rgb(255, 255, 255) !important;
 }
 
 .logo {
@@ -194,7 +194,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #c44e87;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -266,7 +266,7 @@ button:focus {
 
 .home-content {
   padding: 9rem 0 2rem !important;
-  color: whitesmoke;
+  color: rgb(88, 5, 5);
   text-align: left;
 }
 
@@ -291,7 +291,7 @@ button:focus {
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #a22e52 !important;
 }
 
 @media (max-width: 767px) {
@@ -334,7 +334,7 @@ button:focus {
   padding-top: 50px;
   font-size: 1.2em !important;
   text-align: left;
-  background: rgba(255, 255, 255, 0.972) !important;
+  background: rgba(184, 130, 148, 0.972) !important;
 
 }
 
@@ -381,12 +381,12 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #deabe9;
+  box-shadow: 0 0 15px #be265b;
 }
 
 .home-social-icons:hover {
-  color: #a078a8;
-  box-shadow: 0 0 5px #d6a7e0;
+  color: #78264a;
+  box-shadow: 0 0 5px #a6175c;
   text-shadow: 0 0 2px #d687e8;
 }
 
@@ -397,14 +397,14 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: #be3958 !important;
 }
 
 /* --------- */
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(224, 130, 210);
+  background-color: rgb(237, 152, 183);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -484,7 +484,7 @@ button:focus {
 
 .blog-card-view {
   background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px rgba(152, 0, 186, 0.953) !important;
+  box-shadow: 0 3px 3px 2px rgba(175, 10, 73, 0.953) !important;
   color: white !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
@@ -502,7 +502,7 @@ button:focus {
 .blog-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
+  box-shadow: 0 3px 3px 5px rgba(223, 53, 129, 0.65) !important;
 }
 
 .card-img-top {
