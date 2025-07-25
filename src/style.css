@@ -160,7 +160,7 @@ button:focus {
 }
 
 .navbar-nav .nav-link {
-  color: rgb(146, 5, 63) !important;
+  color: rgb(145, 18, 71) !important;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
@@ -291,7 +291,7 @@ button:focus {
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #a22e52 !important;
+  color: #d2104d !important;
 }
 
 @media (max-width: 767px) {
@@ -385,9 +385,9 @@ button:focus {
 }
 
 .home-social-icons:hover {
-  color: #78264a;
+  color: #732447;
   box-shadow: 0 0 5px #a6175c;
-  text-shadow: 0 0 2px #d687e8;
+  text-shadow: 0 0 2px #e5c2ed;
 }
 
 .social-icons {
@@ -404,7 +404,7 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(237, 152, 183);
+  background-color: rgb(227, 92, 141);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -461,7 +461,7 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(203, 111, 168, 0.459) !important;
+  box-shadow: 0 4px 5px 3px rgba(238, 5, 141, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;

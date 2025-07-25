@@ -11,43 +11,51 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
-    <Row className="align-items-center justify-content-center">
-      <Col md={8} lg={8} className="home-about-description">
-        <h1 style={{ fontSize: "2.6em" }}>
-          LET ME <span className="purple">INTRODUCE</span> MYSELF
-        </h1>
-        <p className="home-about-body" style={{ padding: "1.5rem 0" }}>
-          I'm a <b className="purple">Seasoned Mobile Developer</b> with over 11 years of end-to-end experience across{" "}
-          <b className="purple">Android</b>, <b className="purple">iOS</b>, and{" "}
-          <b className="purple">cross-platform</b> mobile solutions.
-          <br />
-          <br />
-          I have strong command over <b className="purple">data structures, algorithms, and object-oriented design (OOP/OOD)</b>{" "}
-          with a deep passion for clean and maintainable code.
-          <br />
-          <br />
-          I'm proficient in applying scalable software design patterns like{" "}
-          <b className="purple">MVVM, MVP, MVI</b>, and <b className="purple">Clean Architecture</b> to large-scale mobile applications.
-          <br />
-          <br />
-          I'm always exploring innovative technologies and crafting impactful mobile experiences.
-        </p>
-      </Col>
-  
-      <Col md={4} lg={3} className="d-flex justify-content-center">
-        <Tilt>
-          <img
-            src={myImg}
-            className="img-fluid"
-            alt="avatar"
-            style={{
-              maxHeight: "380px",
-            }}
-          />
-        </Tilt>
-      </Col>
-    </Row>
+    <Container
+      fluid
+      className="d-flex flex-column align-items-center justify-content-center text-center home-about-section"
+      id="about"
+      style={{ minHeight: "100vh" }}
+    >
+<div className="d-flex flex-column align-items-center justify-content-center text-center" style={{ minHeight: "100vh" }}>
+  <div className="avatar-wrapper mb-4">
+    <img
+      src={myImg}
+      className="img-fluid rounded-circle"
+      alt="avatar"
+      style={{ maxHeight: "490px" }}
+    />
+  </div>
+
+  <h2 className="text-white fw-bold mb-5">I love building apps and APIs</h2>
+
+  <ul className="developer-role-list">
+    <li className="role-item delay-1">
+      <div className="d-flex align-items-center gap-4">
+        <span className="role-icon green-bg">🤖</span>
+        <span className="role-label">Android Development</span>
+      </div>
+    </li>
+    <li className="role-item delay-2">
+      <div className="d-flex align-items-center gap-4">
+        <span className="role-icon red-bg">🍎</span>
+        <span className="role-label">iOS Development</span>
+      </div>
+    </li>
+    <li className="role-item delay-3">
+      <div className="d-flex align-items-center gap-4">
+        <span className="role-icon yellow-bg">🔁</span>
+        <span className="role-label">Cross Platform Development</span>
+      </div>
+    </li>
+    <li className="role-item delay-4">
+      <div className="d-flex align-items-center gap-4">
+        <span className="role-icon gray-bg">🛠️</span>
+        <span className="role-label">Backend Development</span>
+      </div>
+    </li>
+  </ul>
+</div>
   
     <Row className="justify-content-center mt-4">
       <Col md={12} className="home-about-social text-center">
@@ -98,6 +106,7 @@ function Home2() {
       </Col>
     </Row>
   </Container>
+  
   
 
   )
